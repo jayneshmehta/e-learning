@@ -1,5 +1,6 @@
 @extends('layouts.default')
 @section('content')
+
       <div class="max-w-full h-[300px] border-1 border-blue-gray-600 rounded-2xl mx-4 my-2 ">
         <img class="object-cover  h-[300px] w-full rounded-2xl  " src="{{ url('public/images/home/pic1.jpg')}}" alt="">
       </div>

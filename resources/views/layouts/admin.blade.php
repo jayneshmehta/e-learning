@@ -1,9 +1,9 @@
-@include('includes.header')
+@include('includes.admin.header')
 <body>
     <div class="grid min-h-[140px] w-full place-items-center  rounded-lg p-6 lg:overflow-visible">
         <div class="-m-6 max-h-[768px] w-[calc(100%+48px)] ">
 
-@include('includes.navbar')
+@include('includes.admin.navbar')
 
 @if(session('success'))
 <div id="toast-success" class="fixed top-5 right-5 z-20 flex items-center w-full max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800" role="alert">
@@ -36,4 +36,4 @@
 
         </div>
     </div>    
-@include('includes.footer')
+@include('includes.admin.footer')
